@@ -1,3 +1,6 @@
+// curl command is used to perfrom various networking checks
+==============================================================
+
 # Fetch Web Page Content
 curl https://example.com
 
