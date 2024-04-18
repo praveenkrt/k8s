@@ -52,6 +52,9 @@ kubectl get all -n <namespace>
 # List all namespaces
 kubectl get namespaces
 
+# List all deployments
+kubectl get deploy
+
 # Describe a resource
 kubectl describe <resource> <name>
 
