@@ -1,0 +1,35 @@
+# Fetch Web Page Content
+curl https://example.com
+
+# Test RESTful APIs
+curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' https://api.example.com
+
+# Download Files
+curl -O https://example.com/file.txt
+
+# Upload Files
+curl -F "file=@localfile.txt" https://api.example.com/upload
+
+# Check Connectivity
+curl -I https://example.com
+
+# Debugging: Inspect Response Headers
+curl -v https://example.com
+
+# Follow Redirects
+curl -L https://example.com
+
+# Send Custom Headers
+curl -H "Authorization: Bearer token" https://api.example.com
+
+# Set Timeout
+curl --connect-timeout 10 https://example.com
+
+# Specify User Agent
+curl -A "My User Agent" https://example.com
+
+# Save Output to File
+curl -o output.txt https://example.com
+
+# Ignore SSL Certificate Verification
+curl -k https://example.com
